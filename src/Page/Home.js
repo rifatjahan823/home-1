@@ -77,18 +77,19 @@ const Home = () => {
             <div className='col-md-8 col-12'>
                 <div className='card p-4'>
                     <div className='comment-area row align-items-top'>
-                        <div className='comment-box col-6'>
+                        <div className='comment-box col-8'>
                             <h3><FontAwesomeIcon icon={faStop} style={{color:'#0D6EFD'}} /> Virtual Commute</h3>
                             <div className='comment-date d-flex'>
                                 <div className='mail'>
                                     <p>microsoft.com</p>
                                 </div>
+                                <div style={{width:"1.5px",height:'14px',backgroundColor:"#6C757D",margin:'7px 5px',}}></div>
                                 <div className='date'>
                                     <p>April 14 2022</p>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6 text-end'>
+                        <div className='col-4 text-end'>
                         <FontAwesomeIcon className='me-2' icon={faShoppingBag} />
                         <FontAwesomeIcon className='me-2' icon={faExternalLink} style={{faExternalLink}} />
                         <FontAwesomeIcon icon={faBookmark} style={{faBookmark}} />
