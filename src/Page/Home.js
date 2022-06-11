@@ -55,7 +55,7 @@ const Home = () => {
             </div>
         </div>
 
-      <div className='col-12 col-md-10  py-3 side-content'>
+      <div className='col-12 col-md-10  py-4 side-content'>
       <div className='row align-items-center  '>
             <div className=' col-4 text-end'>
                 <button className='btn btn-primary w-75'>URL</button>
@@ -69,7 +69,7 @@ const Home = () => {
             </div>
         </div>
         </div>  
-        <div className='row'style={{marginTop:"55px"}}>
+        <div className='row'style={{marginTop:"40px"}}>
             <div className='col-md-4 col-12'>
             <input type="text" className="form-control" id="exampleFormControlInput1" />
             <button type="submit" className="btn btn-primary w-100 mt-2 mb-4">Confirm identity</button>
